@@ -1,26 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <!-- <ee-1></ee-1> -->
+  <ee-2></ee-2>
+  <!-- <router-view></router-view>
+  <router-link to="/">Go Home</router-link> -->
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Ee1 from "./components/ee-1.vue";
+import Ee2 from "./components/ee-2.vue";
 
 export default {
+  // eslint-disable-next-line vue/no-unused-components
+  components: { Ee1, Ee2 },
   name: "App",
-  components: {
-    HelloWorld,
-  },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
